@@ -1,0 +1,17 @@
+<html>
+<head>
+     <script type="text/javascript">
+     function welcome()
+     {
+          var fname = document.getElementById('fname');
+          var buttxt = document.getElementById('buttxt');
+          buttxt.innerHTML = fname.value;
+     }
+     </script>
+</head>
+<body>
+     <p>Welcome <b id = 'buttxt'></b></p>
+     Your Name : <input type = "text" id="fname"><br>
+     <input type = "button" onClick="welcome()" value="Enter">
+</body>
+</html>

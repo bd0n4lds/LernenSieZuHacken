@@ -1,0 +1,4 @@
+#pragma comment (linker, '/export:CCTAGMaintenance=[FORWARD_DLL_HERE].CCTAGMaintenance,@1')
+#pragma comment (linker, '/export:CCTAGMaintenance_ex=[FORWARD_DLL_HERE].CCTAGMaintenance_ex,@2')
+#pragma comment (linker, '/export:CCTAGMaintenance_new=[FORWARD_DLL_HERE].CCTAGMaintenance_new,@3')
+#pragma comment (linker, '/export:CCTAG_Change_2_EMV=[FORWARD_DLL_HERE].CCTAG_Change_2_EMV,@4')

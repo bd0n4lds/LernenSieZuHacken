@@ -1,0 +1,32 @@
+ TCP OUT 1428: 
+<x02>ANS<x02> A01271I                                  00       <>
+<x0D><x0A><x1C>RCP<x1C>RE<>
+S:1[49]<x0D><x0A>TRM:CONS3005<x0D><x0A>OPR:<x0D><x0A>MRC:80639855704<x0D><>
+<x0A>AMT:71.35<x0D><x0A>CBK:<x0D><x0A>TAT:71.35<x0D><x0A>TIP:0.00<x0D><>
+<x0A>FEE:<x0D><x0A>CRN:************7942<x0D><x0A>TYP:0<x0D><x0A>EXP:*<>
+***<x0D><x0A>CRT:VISA [50]<x0D><x0A>DBA:UNKNOWN [48]<x0D><x0A>LNG:ENG<>
+LISH [48]<x0D><x0A>SWP:ICC [53]<x0D><x0A>AUT:01271I<x0D><x0A>REF:<x0D><>
+<x0A>SEQ:001001001006<x0D><x0A>DAT:19/12/10<x0D><x0A>TIM:09:07:09<x0D><>
+<x0A>RCP:APPROVED<x0D><x0A>SIG:0<x0D><x0A>DSP:APPROVED 01271I<x0D><x0A><>
+          PPD:<x0D><x0A>CVD:Y<x0D><x0A>REI:<x0D><x0A>ISO:00<x0D><x0A>B24:001<x0D><>
+          <x0A>INV:W00898108-<x0D><x0A>PSD:<x0D><x0A>CST:JARUC/ALEXANDRA <x0D><x0A><>
+          HST:30<x0D><x0A>GHT:0<x0D><x0A>LHT:0<x0D><x0A>PHT:0<x0D><x0A>TRI:CONS<>
+          3005 (TRS)<x0D><x0A>VVC:<x0D><x0A>VCL:<x0D><x0A>AID:A0000000031010<x0D><>
+          <x0A>APL:Visa Credit     <x0D><x0A>TVR:0080008000<x0D><x0A>TRC:43685C<>
+          1CDB3368FA<x0D><x0A>ARQ:A111C9C988D394F7<x0D><x0A>ATC:027A<x0D><x0A>U<>
+          PN:436E2E0D<x0D><x0A>CVR:410302<x0D><x0A>AIP:3C00<x0D><x0A>EMA:00<x0D><>
+          <x0A>CID:40<x0D><x0A>TCC:124<x0D><x0A>TCD:124<x0D><x0A>TSI:F800<x0D><x0A><>
+          <x1C>RCT<x1C> Concordia - Sir George Williams Campus<x0D><x0A><x0D><x0A><>
+                     PH: (514) 848-2424<x0D><x0A><x0D><x0A>Dec 10 2019  09:07 a<>
+          m  Trans#W00898108-<x0D><x0A><x0D><x0A>           TRANSACTION RECORD<x0D><>
+          <x0A><x0D><x0A>Customer     : JARUC/ALEXANDRA          <x0D><x0A>Card<>
+           Number  : ************7942         <x0D><x0A>Card Entry   : ICC     <>
+                           <x0D><x0A>Account      : VISA                     <x0D><>
+          <x0A>Trans Type   : PURCHASE                 <x0D><x0A>Amount       :<>
+           $71.35                   <x0D><x0A><x0D><x0A>Auth #       : 01271I  <>
+                           <x0D><x0A>Sequence #   : 001001001006             <x0D><>
+          <x0A>Merchant ID  : 80639855704              <x0D><x0A>Terminal #   :<>
+           CONS3005                 <x0D><x0A>Date         : 19/12/10          <>
+                 <x0D><x0A>Time         : 09:07:09                 <x0D><x0A><x0D><>
+          <x0A>                APPROVED<x0D><x0A><x0D><x0A><x0D><x0A>         S<>
+          IGNATURE NOT REQUIRED<x0D><x0A><x0D><x0A><x0D><x0A><x0D><x0A><x03>

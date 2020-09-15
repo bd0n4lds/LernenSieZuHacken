@@ -1,0 +1,1 @@
+for ip in  $(cat iplist.txt); do sudo nmap -sS -p 80 -T4 $ip & done
