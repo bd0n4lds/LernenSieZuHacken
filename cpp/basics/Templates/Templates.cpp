@@ -1,7 +1,7 @@
-// function template
+// Templates
 #include <iostream>
 
-template <class T>
+template <typename T>
 T GetMax(T a, T b)
 {
   T result;
