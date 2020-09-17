@@ -23,9 +23,11 @@ int main(int argc, char *argv[])
 
 	set_flag(&flag_holder, 3);
 
-	for (i = 31; i >= 0; i--){
+	for (i = 31; i >= 0; i--)
+	{
 		printf("%d", check_flag(flag_holder, i));
-		if (i % 4 == 0){
+		if (i % 4 == 0)
+		{
 			printf(" ");
 		}
 	}

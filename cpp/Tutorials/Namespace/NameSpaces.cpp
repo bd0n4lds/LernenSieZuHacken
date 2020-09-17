@@ -13,7 +13,7 @@ namespace second
 
 int main()
 {
-  cout << first::var << endl;
-  cout << second::var << endl;
+  std::cout << first::var << std::endl;
+  std::cout << second::var << std::endl;
   return 0;
 }

@@ -6,8 +6,3 @@ enum level : unsigned char
     Error,
     Info
 };
-
-int main()
-{
-    level value = Error;
-}

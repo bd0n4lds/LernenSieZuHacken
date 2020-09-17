@@ -9,17 +9,22 @@ static inline void __dump_buffer(const char *buf)
 }
 
 #else /* ! ANDROID */
-#define mei_msg(_me, fmt, ARGS...) do {         \
-	if (_me->verbose)                       \
-		fprintf(stderr, "me: " fmt, ##ARGS);	\
-} while (0)
+#define mei_msg(_me, fmt, ARGS...)               \
+	do                                           \
+	{                                            \
+		if (_me->verbose)                        \
+			fprintf(stderr, "me: " fmt, ##ARGS); \
+	} while (0)
 
-#define mei_err(_me, fmt, ARGS...) do {         \
-	fprintf(stderr, "me: error: " fmt, ##ARGS); \
-} while (0)
+#define mei_err(_me, fmt, ARGS...)                  \
+	do                                              \
+	{                                               \
+		fprintf(stderr, "me: error: " fmt, ##ARGS); \
+	} while (0)
 static inline void __dump_buffer(const char *buf)
 {
-	fprintf(stderr, "%s\n", buf);;
+	fprintf(stderr, "%s\n", buf);
+	;
 }
 #endif /* ANDROID */
 
@@ -29,10 +34,12 @@ static void dump_hex_buffer(const unsigned char *buf, size_t len)
 	char pbuf[pbufsz];
 	int j = 0;
 
-	while (len-- > 0) {
+	while (len-- > 0)
+	{
 		snprintf(&pbuf[j], pbufsz - j, "%02X ", *buf++);
 		j += 3;
-		if (j == 16 * 3) {
+		if (j == 16 * 3)
+		{
 			__dump_buffer(pbuf);
 			j = 0;
 		}
@@ -40,4 +47,3 @@ static void dump_hex_buffer(const unsigned char *buf, size_t len)
 	if (j)
 		__dump_buffer(pbuf);
 }
-
