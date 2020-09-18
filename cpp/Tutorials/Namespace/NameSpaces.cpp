@@ -11,7 +11,7 @@ namespace second
   double var = 3.1416;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   std::cout << first::var << std::endl;
   std::cout << second::var << std::endl;

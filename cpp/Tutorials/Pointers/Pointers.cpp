@@ -1,7 +1,7 @@
 // more pointers
 #include <iostream>
 
-int main()
+int main(int argc, char *argv[])
 {
 
   int firstvalue = 5, secondvalue = 15;

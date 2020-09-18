@@ -10,7 +10,7 @@
 #define LOG(x)
 #endif
 
-int main()
+int main(int argc, char *argv[])
 {
     LOG("Macros");
     std::cin.get();

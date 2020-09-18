@@ -1,4 +1,3 @@
-// pointer to functions
 #include <iostream>
 
 int addition(int a, int b)
@@ -18,13 +17,13 @@ int operation(int x, int y, int (*functocall)(int, int))
   return (g);
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   int m, n;
   int (*minus)(int, int) = subtraction;
 
   m = operation(7, 5, addition);
   n = operation(20, m, minus);
-  std::cout << n;
+  std::cout << n << std::endl;
   return 0;
 }

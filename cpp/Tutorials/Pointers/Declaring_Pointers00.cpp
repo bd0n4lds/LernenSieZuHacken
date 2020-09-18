@@ -1,7 +1,7 @@
 // my first pointer
 #include <iostream>
 
-int main()
+int main(int argc, char *argv[])
 {
   int firstvalue, secondvalue;
   int *mypointer;

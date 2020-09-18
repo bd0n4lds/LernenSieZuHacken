@@ -17,7 +17,7 @@ void increase(void *data, int psize)
   }
 }
 
-int main()
+int main(int argc, char *argv[])
 {
   char a = 'x';
   int b = 1602;

@@ -7,7 +7,7 @@ std::string func()
     return std::string("this is a string");
 }
 
-int main()
+int main(int argc, char *argv[])
 {
     auto x = func();
     printf("x is %s\n", x.c_str());
