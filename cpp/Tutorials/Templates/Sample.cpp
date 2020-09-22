@@ -113,6 +113,5 @@ int main(int argc, char **argv)
     {
         std::cout << "Stack error: " << e.what() << std::endl;
     }
-
     return 0;
 }

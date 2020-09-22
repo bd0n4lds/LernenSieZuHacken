@@ -23,6 +23,6 @@ int main(int argc, char *argv[])
   int b = 1602;
   increase(&a, sizeof(a));
   increase(&b, sizeof(b));
-  std::cout << a << ", " << b << std::endl;
+  std::cout << a << ", " << b << '\n';
   return 0;
 }

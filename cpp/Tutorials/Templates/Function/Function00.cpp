@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <iostream>
 
 template <typename T>
 T maxof(T a, T b)
@@ -9,6 +10,6 @@ T maxof(T a, T b)
 int main(int argc, char **argv)
 {
     int m = maxof<int>(7, 9);
-    printf("max is: %d\n", m);
+    std::cout << "Max is: " << m;
     return 0;
 }

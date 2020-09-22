@@ -7,7 +7,7 @@ public:
     float X, Y;
     Entity()
     {
-        std::cout << "Created Entity!" << std::endl;
+        std::cout << "Created Entity!\n";
     }
 
     Entity(float x, float y)

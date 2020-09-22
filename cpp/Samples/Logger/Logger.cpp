@@ -40,7 +40,7 @@ void Logger::SetLevel(int level)
 void Logger::Warn(const char *message)
 {
     if (m_LogLevel >= LogLevelWarning)
-        std::cout << "[WARNING]: " << message << std::endl;
+        std::cout << "[WARNING]: \n" << message;
 }
 
 void Logger::Info(const char *message)
