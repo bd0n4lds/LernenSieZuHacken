@@ -69,8 +69,8 @@ int main(int argc, char **argv)
 
      // vector of strings
      std::cout << "Vector of strings:";
-     std::vector<string> vs = {"one", "two", "three", "four", "five"};
-     for (string &v : vs)
+     std::vector<std::string> vs = {"one", "two", "three", "four", "five"};
+     for (std::string &v : vs)
      {
           std::cout << v;
      }

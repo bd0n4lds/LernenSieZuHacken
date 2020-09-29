@@ -14,7 +14,7 @@ items2["key3"] = 3
 print(items2)
 
 # try to access a nonexistent key
-#print(items1["key6"])
+# print(items1["key6"])
 
 # replace an item
 items2["key2"] = "two"

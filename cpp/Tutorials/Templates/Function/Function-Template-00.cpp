@@ -1,15 +1,17 @@
-#include <cstdio>
 #include <iostream>
 
 template <typename T>
-T maxof(T a, T b)
+T maxof(const T &a, const T &b)
 {
     return (a > b ? a : b);
 }
 
 int main(int argc, char **argv)
 {
-    int m = maxof<int>(7, 9);
-    std::cout << "Max is: " << m;
+    int a = 7;
+    int b = 9;
+
+    std::cout << "max is " << maxof<int>(a, b);
+
     return 0;
 }
