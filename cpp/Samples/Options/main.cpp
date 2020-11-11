@@ -1,27 +1,26 @@
-#include <stdio.h>     
-#include <stdlib.h>     
-#include <unistd.h>     
-#include <errno.h>      
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
 #include <string.h>
+#include <unistd.h>
 
 static void
 usageError(char *progName)
 {
-    fprintf(stderr, "Usage: %s [-d] filename\n", progName);
-    exit(EXIT_FAILURE);
+	fprintf(stderr, "Usage: %s [-d] filename\n", progName);
+	exit(EXIT_FAILURE);
 }
 
-int
-main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	
-	  while ((opt = getopt(argc, argv, "d")) != -1) 
+	while ((opt = getopt(argc, argv, "d")) != -1)
 	{
-		switch (opt) 
+		switch (opt)
 		{
-			case 'd':;      
+		case 'd':;
 			break;
-			case '?': usageError(argv[0]);
+		case '?':
+			usageError(argv[0]);
 		}
 	}
 }
