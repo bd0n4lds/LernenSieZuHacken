@@ -1,0 +1,18 @@
+{
+  "warnings": [
+    {
+      "code": "",
+      "cwe": 0,
+      "level": 0,
+      "positions": [],
+      "message": "Timed Out License.",
+      "stacktrace": [
+        "com.pvsstudio.Main.checkLicense(Main.java:248)",
+        "com.pvsstudio.Main.main(Main.java:439)"
+      ],
+      "projects": [],
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
