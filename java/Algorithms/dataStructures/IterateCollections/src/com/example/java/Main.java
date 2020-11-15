@@ -6,7 +6,6 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class Main {
-
     public static void main(String[] args) {
 
         System.out.println("Ordered data");
@@ -21,6 +20,7 @@ public class Main {
 
         System.out.println("ArrayList iterator");
         Iterator<String> iterator = list.iterator();
+
         while (iterator.hasNext()) {
             String value = iterator.next();
             System.out.println(value);
@@ -48,6 +48,7 @@ public class Main {
         System.out.println("HashMap Iterator");
         Set<String> keys = map.keySet();
         Iterator<String> iterator1 = keys.iterator();
+
         while (iterator1.hasNext()) {
             String key = iterator1.next();
             System.out.println("The capitol of" + key + "is" + map.get(key));

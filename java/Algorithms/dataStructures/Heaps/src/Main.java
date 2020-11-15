@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         Heap heap = new Heap(10);
 
@@ -13,6 +12,5 @@ public class Main {
         heap.heapsort();
 
         System.out.println("The maximum item is " + heap.getMax());
-
     }
 }

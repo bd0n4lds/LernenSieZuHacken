@@ -14,18 +14,18 @@ public class QuickSort {
 
     // Display items
     public void showArray() {
-        for ( int i = 0; i < nums.length; i++ ) {
+        for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
         }
     }
 
     // Quick sort method
-    public void quicksort( int low, int high ) {
+    public void quicksort(int low, int high) {
 
         // When the low value becomes the high value exit
-        if ( low >= high ) return;
+        if (low >= high) return;
 
-        int pivot = partition( low, high);
+        int pivot = partition(low, high);
 
         // Values on the left side of pivot
         quicksort(low, pivot - 1);
@@ -39,7 +39,7 @@ public class QuickSort {
     private int partition(int low, int high) {
 
         // Getting the middle pivot
-        int pivotIndex =  (low + high) / 2;
+        int pivotIndex = (low + high) / 2;
 
         // Swapping the pivot value with the high value
         swap(pivotIndex, high);
@@ -48,11 +48,11 @@ public class QuickSort {
         int i = low;
 
         // Checking if values are lower or higher
-        for ( int j = low; j < high; j++ ) {
+        for (int j = low; j < high; j++) {
 
             // Ensures that items on the left side of pivot are smaller
-            if(nums[j] <= nums[high]) {
-                swap(i,j);
+            if (nums[j] <= nums[high]) {
+                swap(i, j);
                 i++;
             }
         }

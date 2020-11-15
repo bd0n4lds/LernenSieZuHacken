@@ -3,14 +3,14 @@ public class MergeSort {
     private int[] nums; // One dimensional array of integers
     private int[] tempArray; // Not in place algorithm. Needs extra memory
 
-    public MergeSort( int[] nums ) { // numbers on items in array
+    public MergeSort(int[] nums) { // numbers on items in array
         this.nums = nums;
         tempArray = new int[nums.length]; // matches the numbers array
     }
 
     // Show result of Merge Sort
     public void showResult() {
-        for ( int i = 0; i < nums.length; i++ ) {
+        for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
         }
     }
@@ -19,7 +19,7 @@ public class MergeSort {
     public void mergeSort(int low, int high) {
 
         // Means there is a single item in the sub array
-        if(low >= high) return;
+        if (low >= high) return;
 
         // Calculate the middle index
         int middle = (low + high) / 2;
@@ -31,10 +31,10 @@ public class MergeSort {
     }
 
     // Merging sub arrays together
-    private void merge( int low, int middle, int high ) {
+    private void merge(int low, int middle, int high) {
 
         // Copy nums[i] -> temp[i]
-        for ( int i = low; i <= high; i++ ) {
+        for (int i = low; i <= high; i++) {
             tempArray[i] = nums[i];
         }
 
@@ -57,14 +57,14 @@ public class MergeSort {
         }
 
         // Copy the rest of the left side of the array into the target array
-        while ( i <= middle ) {
+        while (i <= middle) {
             nums[k] = tempArray[i];
             k++;
             i++;
         }
 
         // Copy the rest of the right side of the array into the target array
-        while ( j <= high ) {
+        while (j <= high) {
             nums[k] = tempArray[j];
             k++;
             j++;
@@ -74,8 +74,8 @@ public class MergeSort {
 
     // Helper method that lets is use whether array is sorted or not
     public boolean isSorted() {
-        for ( int i = 0; i < nums.length - 1; i++ ) {
-            if ( nums[i] > nums[i + 1]) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] > nums[i + 1]) {
                 return false;
             }
         }

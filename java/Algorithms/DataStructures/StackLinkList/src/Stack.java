@@ -4,10 +4,10 @@ public class Stack<T extends Comparable<T>> {
     private int count;
 
     // O(1)
-    public void push( T newData ) {
+    public void push(T newData) {
         this.count++;
 
-        if ( this.root == null ) {
+        if (this.root == null) {
             this.root = new Node<>(newData);
         } else {
             Node<T> oldRoot = this.root;

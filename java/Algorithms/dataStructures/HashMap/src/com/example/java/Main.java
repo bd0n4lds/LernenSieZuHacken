@@ -3,8 +3,13 @@ package com.example.java;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * HashMap
+ *
+ * @author
+ * @date
+ */
 public class Main {
-
     public static void main(String[] args) {
 
         Map<String, String> map = new HashMap<>();

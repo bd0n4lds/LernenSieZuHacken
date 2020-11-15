@@ -1,9 +1,14 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Main 
-{
-    public static void main(String[] args) 
-    {
+/**
+ * ArrayList
+ *
+ * @author
+ * @date
+ */
+public class Main {
+    public static void main(String[] args) {
         List<String> list = new ArrayList<>();
 
         list.add("Darron");
@@ -17,7 +22,7 @@ public class Main
         System.out.println(list.get(0));
 
         // Foreach loop prints all items of the array
-        for ( String a: list ) {
+        for (String a : list) {
             System.out.print(a + " ");
         }
 
