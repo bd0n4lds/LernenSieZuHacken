@@ -3,17 +3,17 @@ import java.time.LocalDate;
 /**
  * CustomerRegistrationValidator
  *
- * @author
- * @date
+ * @author Brian Donaldson
+ * @date 11/15/2020
  */
 public class Main {
     public static void main(String[] args) {
 
         Customer customer = new Customer(
-                "Alice",
-                "alice@gmail.com",
+                "Matthew",
+                "matthew@nasa.gov",
                 "+0898787879878",
-                LocalDate.of(2015, 1,1)
+                LocalDate.of(1995, 1,1)
         );
 
         // if valid we can store customer in db

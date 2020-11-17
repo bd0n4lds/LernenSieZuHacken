@@ -5,8 +5,8 @@ import java.util.function.Function;
 /**
  * CustomerRegistrationValidator
  *
- * @author
- * @date
+ * @author Brian Donaldson
+ * @date 11/15/2020
  */
 public interface CustomerRegistrationValidator
         extends Function<Customer, CustomerRegistrationValidator.ValidationResult> {
